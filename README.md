@@ -1,4 +1,4 @@
-# Homer resume
+# Homer's resume
 
 ## Result is here
 

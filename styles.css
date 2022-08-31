@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+/* this is my */
+/* html {
+    background: coral;
+    background-image: url("The_Simpsons.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: relative;
+} */
+
+/* This is mine tries, not from the course */
+.background {
+    /* filter: blur(4px); */
+    min-height: 100%;
+    min-width: 200px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    /* @media screen and (max-width: 640px){
+        img.bg {
+            left: 50%; 
+            margin-left: -320px;
+        }
+    } */
+    }
+
+
+    /* commented commands are mine */
+body {
+    /* background-image: url(The_Simpsons.svg);
+    background-color: coral;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /* background: #f1f1f1; */
+    color: #0f141e;
+    background: coral;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    /* margin-top: 80px; */
+    padding-top: 35px;
+}
+
+.avatar {
+    width: 200px;
+    height: 220px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px 5px rgba(0, 0, 0, 0.25);
+    /* padding: 10px; */
+}
+
+/* img {
+   Shadow for the avatar box-shadow: %px %px %px rgba(%, %, %, %transparent) 
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); 
+    border-radius: 25px;
+    padding: 15px;
+}<--- Alternative way */
+
+/* <--- In video */
+.info {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.info-text h1 {
+    text-shadow: 2px 2px 2px white;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #f3f1f1;
+    margin: 0;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 3px #111;
+}
+
+/* ADAPTIVE layout */
+@media (max-width: 515px) {
+    .info {
+        /* set 'display: block'(since it was 'flex' in .info section) to make it looks adaptive */
+        display: block;
+        text-align: center;
+    }
+
+    .bg-green {
+        padding-left: 0;
+    }
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px white;
+}
+
+/* .info-text a {
+    padding: 2px;
+} */
+
+a {
+    color: blue;
+    text-shadow: 0px 0px 4px #fff;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    color: rgb(214, 141, 6);
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+a:active {
+    color: #ffde00;
+}
+
+/* a:visited {
+    color: purple;
+} */
+
+h2 {
+    margin-top: 15px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.card {
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    /* padding: 15px 20px;<--- Way how to done in video */
+    /* margin-bottom: 20px;<--- in video */
+}
+
+/* .card h2 {
+    margin-bottom: 10px;
+} <--- In video */
+
+.bg-green {
+    background: #bce8bf;
+    margin-top: 60px;    
+    padding: 1px;
+    padding-left: 15px;
+}
+
+.bg-red {
+    background: #e8c9c9;
+    margin-top: 20px;    
+    padding: 1px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.bg-yellow {
+    background: #f3eabf;
+    margin-top: 20px;    
+    padding: 1px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+/* deleted that class in form\Contacts, to repeat add that class */
+.bg-red2 {
+    background: #e8c9c9;
+    margin-top: 20px;    
+    /* padding: 5px;s */
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 1px;
+    border-radius: 20px;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: inherit;
+    transition: all .2s;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: rgb(252, 139, 0);
+    font-size: 14px;
+    background: rgb(14, 1, 74);
+}
+
+
+/* button {
+    border: 1px solid black;
+    border-radius: 25px;
+    background: rgb(254, 191, 97);
+    font-weight: 550;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    color: rgb(253, 136, 2);
+} */
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86898f;
+}
+
+/* TASK #8 */
+.form h2 {
+    text-align: center;
+    /* text-shadow: 2px 2px 2px white; */
+}
+
+/* ADDED form-row class */
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+    /* display: inline-block; */
+    /* width: calc(50%-20px); */
+}
+
+.form-row .form-group:last child {
+    margin-right: 0%;
+}
+
+@media (max-width: 515px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: white;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 254, 254);
+    color: rgb(255, 255, 255);
+    padding: 15px 0 10px;
+    /* LINE around the entering text area called OUTLINE */
+    outline: none;
+    font-family: inherit;
+}
+
+/* text shadow for  */
+.form {
+    text-shadow: 2px 2px 2px rgb(253, 106, 1);
+}

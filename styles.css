@@ -16,6 +16,7 @@
 
 /* This is mine tries, not from the course */
 .background {
+    opacity: 50%;
     filter: blur(4px);
     min-height: 100%;
     min-width: 200px;
@@ -308,4 +309,8 @@ h2 {
 /* text shadow for  */
 .form {
     text-shadow: 2px 2px 2px rgb(253, 106, 1);
+}
+
+.form-btn {
+    margin-bottom: 35px;
 }

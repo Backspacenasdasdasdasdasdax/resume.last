@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 
-/* this is my */
-/* html {
-    background: coral;
-    background-image: url("The_Simpsons.svg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    position: relative;
-} */
-
-/* This is mine tries, not from the course */
 .background {
     opacity: 50%;
     filter: blur(4px);
@@ -35,7 +20,7 @@
     }
 
 
-    /* commented commands are mine */
+   
 body {
     /* background-image: url(The_Simpsons.svg);
     background-color: coral;
@@ -67,14 +52,7 @@ body {
     /* padding: 10px; */
 }
 
-/* img {
-   Shadow for the avatar box-shadow: %px %px %px rgba(%, %, %, %transparent) 
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); 
-    border-radius: 25px;
-    padding: 15px;
-}<--- Alternative way */
 
-/* <--- In video */
 .info {
     margin-bottom: 40px;
     display: flex;
@@ -93,7 +71,7 @@ body {
     text-shadow: 2px 2px 3px #111;
 }
 
-/* ADAPTIVE layout */
+
 @media (max-width: 515px) {
     .info {
         /* set 'display: block'(since it was 'flex' in .info section) to make it looks adaptive */
@@ -147,13 +125,11 @@ h2 {
 .card {
     /* border: 1px solid black; */
     border-radius: 20px;
-    /* padding: 15px 20px;<--- Way how to done in video */
-    /* margin-bottom: 20px;<--- in video */
 }
 
 /* .card h2 {
     margin-bottom: 10px;
-} <--- In video */
+}  */
 
 .bg-green {
     background: #bce8bf;
@@ -178,7 +154,7 @@ h2 {
     padding-bottom: 15px;
 }
 
-/* deleted that class in form\Contacts, to repeat add that class */
+
 .bg-red2 {
     background: #e8c9c9;
     margin-top: 20px;    
@@ -209,16 +185,7 @@ h2 {
 }
 
 
-/* button {
-    border: 1px solid black;
-    border-radius: 25px;
-    background: rgb(254, 191, 97);
-    font-weight: 550;
-    width: 70px;
-    height: 30px;
-    margin-top: 10px;
-    color: rgb(253, 136, 2);
-} */
+
 
 .list {
     padding: 0 20px;
@@ -252,13 +219,13 @@ h2 {
     color: #86898f;
 }
 
-/* TASK #8 */
+
 .form h2 {
     text-align: center;
     /* text-shadow: 2px 2px 2px white; */
 }
 
-/* ADDED form-row class */
+
 .form-row {
     margin-bottom: 10px;
     display: flex;
@@ -301,12 +268,12 @@ h2 {
     border-bottom: 1px solid rgb(255, 254, 254);
     color: rgb(255, 255, 255);
     padding: 15px 0 10px;
-    /* LINE around the entering text area called OUTLINE */
+   
     outline: none;
     font-family: inherit;
 }
 
-/* text shadow for  */
+
 .form {
     text-shadow: 2px 2px 2px rgb(253, 106, 1);
 }
